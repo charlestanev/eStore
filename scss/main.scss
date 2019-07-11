@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+body {
+    background: rgb(226, 226, 226);
+}
+
+
+// Left-Sidebar
+
+.content .navbar .collapse {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content .row .col-md-3 .card {
+    font-family: 'Poppins', sans-serif;
+    // padding: 2em;
+}
+
+.content .row .col-md-3 .card .card-header {
+    font-size: 1.5em;
+    background: yellow;
+    padding-left: 1.8em;
+}
+
+.content .row .col-md-3 .card a {
+    font-size: 1em;
+    letter-spacing: .05em;
+    color: black;
+    padding-left: 1.5em;
+    text-decoration: none;
+}
+
+// Carousel
+
+.col-md-9 .carouselExampleIndicators .carousel-inner .carousel-item .d-block {
+    width: 250;
+    height: 400px;
+}
