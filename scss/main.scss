@@ -23,7 +23,7 @@ body {
 
 .content .row .col-md-3 .card .card-header {
     font-size: 1.2em;
-    background: red;
+    background: yellow;
     padding-left: 1.8em;
 }
 
@@ -47,9 +47,9 @@ body {
 }
 
 
-@media only screeen and (max-width 768px) {
-    .content .row .col-md-3 .card {
-        background: red;
-    }
+// @media only screeen and (max-width 768px) {
+//     .content .row .col-md-3 .card {
+//         background: red;
+//     }
 
-}
+// }
