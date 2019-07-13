@@ -61,3 +61,37 @@ main .content .col-md-2 .card .col-md-8 .card-body a {
     font-family: 'Poppins', sans-serif;
     color: black;
 }
+
+// featured
+
+.featured {
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+}
+
+.featured .col-md-2 {
+
+    margin: 0;
+    padding: 0;
+}
+
+.featured .col-md-2 .card-deck {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+
+.featured .col-md-2 .card-deck .card-body {
+    padding: .5em;
+}
+
+.featured .col-md-2 .card-deck .card-body .card-title {
+
+    font-size: 1em;
+}
+
+.featured .col-md-2 .card-deck p {
+    padding: 0;
+    font-size: .7em;
+}
