@@ -131,6 +131,10 @@ button {
   height: 300px;
 }
 
+main .col-md-10 .row .col-md-12 #carouselExampleIndicators {
+  margin-right: .5em;
+}
+
 .rslides {
   position: relative;
   list-style: none;
