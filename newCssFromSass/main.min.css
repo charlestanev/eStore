@@ -1,2 +1,218 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");.content{width:60%;margin:0 auto}body{background:#e2e2e2}.content .navbar .collapse{font-family:'Poppins', sans-serif}.content .row .col-md-3 .card{font-family:'Poppins', sans-serif}.content .row .col-md-3 .card .card-header{font-size:1.2em;background:yellow;padding-left:1.8em}.content .row .col-md-3 .card .card-body .card-title a{font-size:1em;letter-spacing:.05em;color:black;padding-left:1.5em;text-decoration:none}.content .row .col-md-3 .card .card-body.text-{padding:1em 0}.col-md-9 .carouselExampleIndicators .carousel-inner .carousel-item .d-block{width:250;height:300px}.card-text{font-size:1em;text-align:center}main .content .col-md-2 .card .col-md-4 img{padding-top:1.5em}main .content .col-md-2 .card .col-md-8 .card-body a{text-decoration:none;font-family:'Poppins', sans-serif;color:black}.featured{background-color:red;font-family:'Poppins', sans-serif}.featured .col-md-2{margin:0;padding:0}.featured .col-md-2 .card-deck{margin-left:0;margin-right:0;padding:0}.featured .col-md-2 .card-deck .card-body{padding:.5em}.featured .col-md-2 .card-deck .card-body .card-title{font-size:1em}.featured .col-md-2 .card-deck p{padding:0;font-size:.7em}
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+.content {
+  width: 85%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+body {
+  background: #e2e2e2;
+}
+
+#main_header .col-md-10 {
+  padding-left: 0.3em;
+}
+
+#main_header .col-md-2 {
+  padding-right: 0.3em;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+input {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border: 1px solid blue;
+  background: blue;
+  color: white;
+}
+
+.col-md-10 .form-inline .btn {
+  padding: .3em;
+  margin: 0;
+}
+
+.mainBanners {
+  background-color: white;
+  margin-left: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mainBanners .row {
+  margin: 0;
+  padding-left: 0;
+}
+
+.mainBanners .row .col-md-4 {
+  margin: 0.3em 0 0 0;
+  padding: 0;
+}
+
+.content .navbar .collapse {
+  font-family: 'Poppins', sans-serif;
+}
+
+.content .row .col-md-2 {
+  margin-top: 0.3em;
+  margin-bottom: 0;
+}
+
+.content .row .col-md-2 .card {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.content .row .col-md-2 .card {
+  background-color: #F2F2F2;
+  font-family: 'Poppins', sans-serif;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.content .row .col-md-2 .card .card-header {
+  margin-top: 0;
+  font-size: 1.2em;
+  background: yellow;
+  padding: .3em 1.8em;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.content .row .col-md-2 .card .card-body .card-title {
+  margin: 0;
+  padding: 0;
+}
+
+.content .row .col-md-2 .card .card-body .card-title a {
+  font-size: 1em;
+  letter-spacing: 0.02em;
+  color: #4D4D4D;
+  padding: .5em .8em .5em 2em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content .row .col-md-2 .card .card-body .card-title a:hover {
+  color: #E29012;
+}
+
+.content .row .col-md-2 .card .card-body {
+  padding: 0;
+}
+
+.col-md-10 .carouselExampleIndicators .carousel-inner .carousel-item .d-block {
+  width: 250;
+  height: 300px;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+.card-text {
+  font-size: 1em;
+  text-align: center;
+}
+
+main .content .col-md-2 .card .col-md-4 img {
+  padding-top: 1.5em;
+}
+
+main .content .col-md-2 .card .col-md-8 .card-body a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+a.fill-div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.featured {
+  background-color: red;
+  font-family: 'Poppins', sans-serif;
+}
+
+.featured .col-md-2 {
+  margin: 0;
+  padding: 0;
+}
+
+.featured .col-md-2 .card-deck {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.featured .col-md-2 .card-deck .card-body {
+  padding: 0.5em;
+}
+
+.featured .col-md-2 .card-deck .card-body .card-title {
+  font-size: 1em;
+}
+
+.featured .col-md-2 .card-deck p {
+  padding: 0;
+  font-size: 0.7em;
+}
 /*# sourceMappingURL=main.min.css.map */

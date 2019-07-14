@@ -1,3 +1,3 @@
-$('.my-carousel').carousel().swipeCarousel({
-    // options here
+$(function () {
+    $(".rslides").responsiveSlides();
 });
