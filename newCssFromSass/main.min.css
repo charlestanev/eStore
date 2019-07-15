@@ -200,39 +200,62 @@ button {
 }
 
 .newsletter {
-  padding: 80px 0px;
-  background-color: #c98444;
+  font-family: 'Cute Font', cursive;
+  margin: 1em 0;
+  border-radius: 20px;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.col-sm-12 {
+  margin-bottom: 1em;
 }
 
 .newsletter .content {
-  min-width: 650px;
+  min-width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
 .newsletter .content h2 {
-  margin-bottom: 40px;
+  margin-bottom: .2em;
   color: #243c4f;
 }
 
 .newsletter .content .form-control {
-  height: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  padding: 0 1em;
+  height: 2.5em;
+  margin: 0 1em;
   background-color: #fff;
-  border-radius: 0;
+  border-radius: 10px;
 }
 
 .newsletter.content .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 2px solid #243c4f;
+  border: 2px solid #1214a1;
 }
 
 .newsletter .content .btn {
-  min-height: 50px;
-  border-radius: 0;
-  background-color: #243c24;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  min-height: 2.4em;
+  border-radius: 10px;
+  background-color: #1214a1;
   color: #fff;
-  font-weight: 600;
+}
+
+.shipping .row .col-md-2 {
+  padding: 0;
+}
+
+.shipping .row .col-md-2 .card {
+  margin: 0 3em;
+  padding: 0;
+  border-color: white;
 }
 
 .card-text {
@@ -240,14 +263,22 @@ button {
   text-align: center;
 }
 
-main .content .col-md-2 .card .col-md-4 img {
-  padding-top: 1.5em;
+.card-title .img-responsive {
+  padding: 1.5em 0.1em;
+}
+
+.row .col-md-8 .car.d-body {
+  padding-top: 1em;
+}
+
+.card .row .col-md-8 .card-body {
+  padding: 2em 0.1em;
 }
 
 #container .col-md-2 .card .row .col-md-8 .card-body a {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  color: red;
+  color: #4d4d4d;
 }
 
 a.fill-div {
