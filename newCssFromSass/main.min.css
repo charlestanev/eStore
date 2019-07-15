@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Finger+Paint|Poppins:400,700,900|Share+Tech|Share+Tech+Mono&display=swap");
 #container {
   width: 85%;
   margin: 0 auto;
@@ -56,37 +56,39 @@ button {
 #main_header .row .col-md-10 .form-inline .form-control {
   font-size: 0.897em;
   padding: 0 0 0 1em;
-  margin: .2em 0 .3em 0;
+  margin: 0.2em 0 0.3em 0;
 }
 
 #main_header .row .col-md-10 .form-inline .btn {
-  padding: .3em;
+  padding: 0.3em;
 }
 
 #main_header .row .col-md-2 .card .card-header {
-  font-family: 'Poppins', sans-serif;
+  margin-top: 0;
+  padding: 0em 1.8em;
+  background: yellow;
+  font-family: 'Cute Font', cursive;
+  font-size: 1.9em;
+  font-weight: bold;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-header #main_header .row .col-md-2 .card .card-header {
-  margin-top: 0;
-  font-size: 1.2em;
-  background: yellow;
-  padding: .3em 1.8em;
-}
-
 #sidebar .card {
-  font-family: 'Poppins', sans-serif;
-  background-color: #F2F2F2;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.4em;
+  background-color: #f2f2f2;
   margin: 0 0 0 0;
-  font-family: 'Poppins', sans-serif;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+#sidebar .card .card-body {
+  padding-top: 0.7em 0 0 0;
 }
 
 #sidebar .card .card-body .card-title {
@@ -97,19 +99,18 @@ header #main_header .row .col-md-2 .card .card-header {
 #sidebar .card .card-body .card-title a {
   font-size: 1em;
   letter-spacing: 0.02em;
-  color: #4D4D4D;
-  padding: .5em .8em .5em 2em;
+  color: #4d4d4d;
+  padding: 0.1em 0.8em 0.1em 2em;
   text-decoration: none;
-  font-weight: bold;
 }
 
 #sidebar .card .card-body .card-title a:hover {
-  color: #E29012;
+  color: #e29012;
 }
 
 #carousel .row .col-md-12 #carouselExampleIndicators {
-  margin-right: .7em;
-  padding-left: .1em;
+  margin-right: 0.7em;
+  padding-left: 0.1em;
 }
 
 .mainBanners {
@@ -129,6 +130,111 @@ header #main_header .row .col-md-2 .card .card-header {
   padding: 0;
 }
 
+#container .col-md-3 .card {
+  border-color: white;
+}
+
+#container .col-md-3 .card .list-group li {
+  border-color: white;
+  padding: 0;
+}
+
+#container .card .list-group .list-group-item {
+  font-family: 'Cute Font', cursive;
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+
+#container .carousel-item .card .list-group .list-group-item1 {
+  font-family: 'Finger Paint', cursive;
+  font-size: 1em;
+  text-decoration: line-through;
+  padding: 0;
+}
+
+#container .carousel-item .card .list-group .list-group-item2 {
+  font-size: 2em;
+  font-family: 'Finger Paint', cursive;
+  padding-left: 0.7em;
+  color: red;
+}
+
+#container .carousel-item .card .list-group-item3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 25px;
+  color: white;
+  text-decoration: none;
+  background-color: #cc4e00;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#container .carousel-item .card .list-group-item4 {
+  font-weight: bold;
+  font-size: 0.7em;
+  margin-top: 0.7em;
+}
+
+#container .carousel-item .card .card-body {
+  padding: 0;
+  margin: 0;
+}
+
+#container .carousel-item .card .card-body h5 {
+  text-align: center;
+  font-family: 'Cute Font', cursive;
+  font-size: 2em;
+  padding-top: 0.3em;
+  margin: 0;
+}
+
+.newsletter {
+  padding: 80px 0px;
+  background-color: #c98444;
+}
+
+.newsletter .content {
+  min-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newsletter .content h2 {
+  margin-bottom: 40px;
+  color: #243c4f;
+}
+
+.newsletter .content .form-control {
+  height: 50px;
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.newsletter.content .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+  min-height: 50px;
+  border-radius: 0;
+  background-color: #243c24;
+  color: #fff;
+  font-weight: 600;
+}
+
 .card-text {
   font-size: 1em;
   text-align: center;
@@ -138,10 +244,10 @@ main .content .col-md-2 .card .col-md-4 img {
   padding-top: 1.5em;
 }
 
-main .content .col-md-2 .card .col-md-8 .card-body a {
+#container .col-md-2 .card .row .col-md-8 .card-body a {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  color: black;
+  color: red;
 }
 
 a.fill-div {
