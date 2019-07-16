@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font|Finger+Paint|Poppins:400,700,900|Share+Tech|Share+Tech+Mono&display=swap');
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+body {
+    background: rgb(226, 226, 226);
+}
+
+// navbar
+header .navbar .collapse {
+    font-family: 'Poppins', sans-serif;
+}
+
+header .row .col-md-2 {
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
+
+// search bar
+#main_header .col-md-10 {
+    padding-left: 0.3em;
+}
+
+#main_header .col-md-2 {
+    padding-right: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    flex-grow: 2;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: 1px solid blue;
+    background: blue;
+    color: white;
+}
+
+#main_header .row .col-md-10 .form-inline .form-control {
+    font-size: 0.897em;
+    padding: 0 0 0 1em;
+    margin: 0.2em 0 0.3em 0;
+}
+
+#main_header .row .col-md-10 .form-inline .btn {
+    padding: 0.3em;
+}
+
+#main_header .row .col-md-2 .card .card-header {
+    margin-top: 0;
+    padding: 0em 1.8em;
+    background: yellow;
+    font-family: 'Cute Font', cursive;
+    font-size: 1.9em;
+    font-weight: bold;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+// Left-Sidebar
+.row .col-md-2 {
+    padding-right: 0;
+}
+
+#sidebar .card {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.4em;
+    background-color: #f2f2f2;
+    margin: 0 0 0 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#sidebar .card .card-body {
+    padding: 0.7em 0em 0 0;
+}
+
+#sidebar .card .card-body .card-title {
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar .card .card-body .card-title a {
+    font-size: 1em;
+    letter-spacing: 0.02em;
+    color: #4d4d4d;
+    padding: 0.1em 0.8em 0.1em 2em;
+    text-decoration: none;
+}
+
+#sidebar .card .card-body .card-title a:hover {
+    color: #e29012;
+}
+
+// Carousel
+
+#carousel .row .col-md-12 #carouselExampleIndicators {
+    margin-right: 0.7em;
+    padding-left: 0.1em;
+}
+
+// firstBanners
+
+.mainBanners {
+    background-color: white;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.mainBanners .row {
+    margin: 0;
+    padding-left: 0;
+}
+
+.mainBanners .row .col-md-4 {
+    margin: 0.3em 0 0 0;
+    padding: 0;
+}
+
+// Items-Slider
+#container .row .col-md-3 {
+    padding-left: 5em;
+    padding: 1em 2em;
+    margin: 0;
+}
+
+#container .col-md-3 .card {
+    border-color: white;
+}
+
+#container .col-md-3 .card .list-group li {
+    border-color: white;
+    padding: 0;
+}
+
+#container .card .list-group .list-group-item {
+    font-family: 'Cute Font', cursive;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+#container .carousel-item .card .list-group .list-group-item1 {
+    font-family: 'Finger Paint', cursive;
+    font-size: 1em;
+    text-decoration: line-through;
+    padding: 0;
+}
+
+#container .carousel-item .card .list-group .list-group-item2 {
+    font-size: 2em;
+    font-family: 'Finger Paint', cursive;
+    padding-left: 0.7em;
+    color: red;
+}
+
+#container .carousel-item .card .list-group-item3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    display: flex;
+    width: 100px;
+    height: 25px;
+    color: white;
+    text-decoration: none;
+    background-color: #cc4e00;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+}
+
+#container .carousel-item .card .list-group-item4 {
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-top: 0.7em;
+}
+
+#container .carousel-item .card .card-body {
+    padding: 0;
+    margin: 0;
+}
+
+#container .carousel-item .card .card-body h5 {
+    text-align: center;
+
+    font-family: 'Cute Font', cursive;
+    font-size: 2em;
+    padding-top: 0.3em;
+    margin: 0;
+}
+
+// Subscribe Area
+.newsletter {
+    font-family: 'Cute Font', cursive;
+    margin: 1em 0;
+    border-radius: 20px;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.col-sm-12 {
+    margin-bottom: 1em;
+}
+
+.newsletter .content {
+    min-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newsletter .content h2 {
+    margin-bottom: 0.2em;
+    color: #243c4f;
+}
+
+.newsletter .content .form-control {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    padding: 0 1em;
+    height: 2.5em;
+    margin: 0 1em;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.newsletter.content .form-control:focus {
+    box-shadow: none;
+    border: 2px solid hsl(239, 80%, 35%);
+}
+
+.newsletter .content .btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+
+    text-align: center;
+    min-height: 2.4em;
+    border-radius: 10px;
+    background-color: hsl(239, 80%, 35%);
+    color: #fff;
+}
+
+// Order Details
+.shipping .row .col-md-2 {
+    padding: 0;
+}
+
+.shipping .row .col-md-2 .card {
+    margin: 0 3em;
+    padding: 0;
+    border-color: white;
+}
+
+.card-text {
+    font-size: 1em;
+    text-align: center;
+}
+
+.card-title .img-responsive {
+    padding: 1.5em 0.1em;
+}
+
+.row .col-md-8 .car.d-body {
+    padding-top: 1em;
+}
+
+.card .row .col-md-8 .card-body {
+    padding: 2em 0.1em;
+}
+
+#container .col-md-2 .card .row .col-md-8 .card-body a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #4d4d4d;
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+// tradingNow
+#tradingNow .row .list-group .list-group-item {
+    font-family: 'Cute Font', cursive;
+    font-size: 4em;
+    letter-spacing: .4em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#tradingNow .row .col-md-3 {
+    margin: 0;
+}
+
+// footer

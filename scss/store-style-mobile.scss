@@ -1,0 +1,82 @@
+@media only screen and (max-width: 600px) {
+
+    #container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content .row .col-md-3 .card {
+        margin-bottom: 2em;
+    }
+
+    main .content .col-md-2 .card .col-md-4 img {
+        padding: 2.5em 2.5em;
+    }
+
+    // search bar
+    #main_header .col-md-10 {
+        padding: 0 0em;
+    }
+
+    #main_header .row {
+        margin: 0;
+        padding: 0em;
+    }
+
+    #main_header .row .col-md-2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #main_header .row .col-md-2 .card .card-header {
+        margin-top: 0.3em;
+        padding-left: 1em;
+        background: yellow;
+        font-family: 'Cute Font', cursive;
+        font-size: 1.6em;
+        font-weight: bold;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+
+
+
+    // Left-Sidebar
+    .row .col-md-2 {
+        padding-right: 1em;
+    }
+
+    // product
+
+    .col-md-10 {
+        padding: 0 1em;
+        margin: 0;
+    }
+
+    .preview {
+        padding: 0;
+        margin: 0;
+    }
+
+    .details {
+        padding: 0;
+        margin: 0;
+    }
+
+    .wrapper {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-fliud {
+        background-color: white;
+
+        padding: 1em 0em 0 1em;
+    }
+
+
+
+}

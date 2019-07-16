@@ -1,0 +1,98 @@
+@import 'https://fonts.googleapis.com/css?family=Righteous';
+
+hr {
+    background: #ddd;
+    width: 90%;
+    margin: 0 auto;
+    height: 1px;
+    display: inline-block;
+}
+
+header {
+    height: 10vh;
+}
+
+section {
+    min-height: 300px;
+}
+
+.social-wrap {
+    display: block;
+    text-align: center;
+    height: 35vh;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    background: #1976D2;
+    min-height: 250px;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.social-wrap h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.social-wrap ul {
+    padding: 0px;
+}
+
+.social-wrap li {
+    display: inline-block;
+    padding: 0px 4px;
+    font-size: 50px;
+}
+
+.social-wrap li a {
+    color: #fff;
+    opacity: .7;
+}
+
+.social-wrap li:hover a {
+    color: #fff;
+    opacity: 1;
+}
+
+.social-wrap .heading {
+    display: block
+}
+
+.hide {
+    display: none;
+}
+
+.social-wrap.socialbg1 .heading,
+.social-wrap.socialbg2 .heading,
+.social-wrap.socialbg3 .heading,
+.social-wrap.socialbg4 .heading {
+    display: none;
+}
+
+.socialbg1 {
+    background: #3b5998;
+}
+
+.socialbg2 {
+    background: #00aced;
+}
+
+.socialbg3 {
+    background: #d34836;
+}
+
+.socialbg4 {
+    background: #0077B5;
+}
+
+.socialbg1 .text1,
+.socialbg2 .text2,
+.socialbg3 .text3,
+.socialbg4 .text4 {
+    display: block
+}

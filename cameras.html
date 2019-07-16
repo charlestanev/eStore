@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Charl eStore</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="newCssFromSass/products.min.css">
+    <link rel="stylesheet" href="newCssFromSass//products-mobile.min.css">
+    <link rel="stylesheet" href="newCssFromSass/footer.min.css">
+</head>
+
+
+<body>
+    <main>
+        <div id="container">
+            <header>
+                <div id="main_header">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                        <a class="navbar-brand" href="index.html"><img class='img-responsive' src="assets/logo.png"
+                                alt="StoreLogo" style="width:42px;height:42px;border:0;"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="desctops.html">Products<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Log In<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="about-us.html">About Us <span class="sr-only"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="card border-white" style="min-width: 100%;">
+                                <h3 class="card-header">Categories</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-md-10 mb-1 mt-1">
+                            <form class="form-inline mx-1 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-primary mr-1 my-sm-0 mr-2" type="submit">Search </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="row">
+                <div class="col-md-2 col-sm-12">
+                    <div id="sidebar">
+                        <div class="card border-white" style="max-width: 26rem; min-height: 31rem">
+                            <div class="card-body text-">
+                                <div class="card-title"><a href="desctops.html" class="fill-div"> Desktops </a></div>
+                                <div class="card-title"><a href="laptops.html" class="fill-div"> Laptops </a></div>
+                                <div class="card-title"><a href="Components.html" class="fill-div"> Components </a>
+                                </div>
+                                <div class="card-title"><a href="Tablets.html" class="fill-div"> Tablets </a></div>
+                                <div class="card-title"><a href="Software.html" class="fill-div"> Software </a></div>
+                                <div class="card-title"><a href="Phones.html" class="fill-div"> Phones </a></div>
+                                <div class="card-title"><a href="Cameras.html" class="fill-div"> Cameras </a></div>
+                                <div class="card-title"><a href="Speakers.html" class="fill-div"> Speakers </a></div>
+                                <div class="card-title"><a href="Headphones.html" class="fill-div"> Headphones </a>
+                                </div>
+                                <div class="card-title"><a href="Tvs.html" class="fill-div"> Tv's </a></div>
+                                <div class="card-title"><a href="Gaming.html" class="fill-div"> Gaming </a></div>
+                                <div class="card-title"><a href="Movies.html" class="fill-div"> Movies </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-10 col-sm-12">
+                    <div id="carousel">
+                        <div class="row">
+                            <div class="col-md-12 pl-2">
+                                <div class="row ">
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 pl-2">
+                                <div class="row ">
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 pl-2">
+                                <div class="row ">
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 pl-2">
+                                <div class="row ">
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 pl-2">
+                                <div class="row ">
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-xs-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Canon</li>
+                                            </ul>
+                                            <div id="carouselExampleControls1" class="carousel slide"
+                                                data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="card" style="width: 100%;">
+                                                            <a class="navbar-brand" href="product-info.html"><img
+                                                                    class='img-responsive' src="assets/6.jpg"
+                                                                    class="card-img class='img-responsive'-top"
+                                                                    alt="..."></a>
+                                                            <ul class="list-group list-group-flush">
+                                                                <li class="list-group-item1">$489.<sup>99</sup></li>
+                                                                <li class="list-group-item2">$389.<sup>99</sup></li>
+                                                                <li class="list-group-item3">save 18%</li>
+                                                                <li class="list-group-item4">Free Shipping</li>
+                                                            </ul>
+                                                            <div class="card-body">
+                                                                <h5> Canon EOS 4000D 18MP Wi-Fi / NFC </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+    </main>
+
+    <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Charles eCommerce</h5>
+                    <p>This is our store you can find everything you need in here. Best prices on the world market</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">CUSTOMER SERVICE</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Track an Order</a>
+                        </li>
+                        <li>
+                            <a href="#!">Return an Item</a>
+                        </li>
+                        <li>
+                            <a href="#!">Return Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!">Privacy & Security</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">MY <br>ACCOUNT</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Login/Register</a>
+                        </li>
+                        <li>
+                            <a href="#!">My Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#!">Order History</a>
+                        </li>
+                        <li>
+                            <a href="#!">Email Notifications</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">site<br>map</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Card</a>
+                        </li>
+                        <li>
+                            <a href="#!">Products</a>
+                        </li>
+                        <li>
+                            <a href="#!">Categorias</a>
+                        </li>
+                        <li>
+                            <a href="#!">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-wrapper">
+            <ul>
+                <li>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png"
+                            alt="Twitter Logo" class="twitter-icon"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/charles_tanev/?hl=bg" target="_blank">
+                        <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo"
+                            class="instagram-icon"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/charley.tanev" target="_blank">
+                        <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico"
+                            alt="Facebook Logo" class="facebook-icon"></a>
+                </li>
+                <li>
+                    <a href="https://aboutme.google.com/u/0/?referer=gplus" target="_blank">
+                        <img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/256/Google-plus-icon.png"
+                            alt="Googleplus Logo" class="googleplus-icon"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170"
+                            alt="Youtube Logo" class="youtube-icon"></a>
+                </li>
+                <li>
+                    <a href="https://foursquare.com/" target="_blank">
+                        <img src="http://www.iconarchive.com/download/i94258/designbolts/vector-foursquare/Foursquare-2.ico"
+                            alt="Foursquare Logo" class="foursquare-icon"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="#"> Charles Tanev</a>
+        </div>
+
+        <nav class="footer-nav" role="navigation">
+
+        </nav>
+    </footer>
+
+
+
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+
+    <script src="dist/bootstrap-swipe-carousel.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="jquery.cookie.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="src/jquery.subscribebar.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

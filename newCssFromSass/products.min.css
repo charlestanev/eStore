@@ -136,8 +136,8 @@ button {
 
 #container .row .col-md-3 {
   padding-left: 5em;
-  padding-right: 0;
-  margin: 2em 0 0 0em;
+  padding: 1em 2em;
+  margin: 0;
 }
 
 #container .col-md-3 .card {
@@ -312,4 +312,4 @@ a.fill-div {
 #tradingNow .row .col-md-3 {
   margin: 0;
 }
-/*# sourceMappingURL=main.min.css.map */
+/*# sourceMappingURL=products.min.css.map */
