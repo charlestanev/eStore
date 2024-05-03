@@ -1,4 +1,4 @@
-# Charl eStore
+# Charles eStore
 
 This is the repository for my very first project, a simple e-commerce website built in 2018 using HTML, Bootstrap v4.2.1, SASS, and JavaScript.
 
