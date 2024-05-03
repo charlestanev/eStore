@@ -1,10 +1,10 @@
-# Charl eStore
+# Charles Tanev eStore
 
 This is the repository for my very first project, a simple e-commerce website built in 2018 using HTML, Bootstrap v4.2.1, SASS, and JavaScript.
 
 ## Overview
 
-Charl eStore is a basic e-commerce website designed to showcase various products and provide users with a seamless shopping experience. The website includes features such as a responsive navigation menu, product categories, search functionality, and a user-friendly interface.
+Charles Tanev eStore is a basic e-commerce website designed to showcase various products and provide users with a seamless shopping experience. The website includes features such as a responsive navigation menu, product categories, search functionality, and a user-friendly interface.
 
 ## Technologies Used
 
